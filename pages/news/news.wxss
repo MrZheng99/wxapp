@@ -1,0 +1,6 @@
+.title{
+    text-align: left;
+}
+.hoverclass{
+    background-color:#FFB6C1
+}

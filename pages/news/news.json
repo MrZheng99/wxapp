@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#FFB6C1",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "今日新闻",
+  "backgroundColor": "#FFFFFF",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false,
+  "usingComponents": {},
+"sitemapLocation": "sitemap.json"
+}

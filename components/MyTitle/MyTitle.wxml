@@ -1,0 +1,23 @@
+<veiw class="MyTitle">
+    <!-- logo -->
+    <view class="logo">
+        <image class="log_img" style="width: 140rpx;height: 60rpx" src="../../icons/logo.png">
+        </image>
+    </view>
+    <!-- search -->
+    <navigator class="search_icon">
+        <image class="search_img" style="width: 40rpx;height: 60rpx" src="../../icons/search.png">
+        </image>
+    </navigator>
+    <!-- user -->
+    <navigator class="user_icon">
+        <image class="user_img" style="width: 40rpx;height: 60rpx" src="../../icons/user.png">
+        </image>
+    </navigator>
+    <!-- download -->
+    <navigator class="download_icon">
+        <image class="download_img" style="width: 40rpx;height: 60rpx" src="../../icons/download.png">
+        </image>
+        Download
+    </navigator>
+</veiw>

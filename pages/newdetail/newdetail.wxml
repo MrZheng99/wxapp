@@ -1,0 +1,8 @@
+<view class="container">
+        <view class="title">
+            标题:{{pagetitle}}
+        </view>
+        <text decode="true" class="content">
+            {{pagecontent}}
+        </text>
+</view>

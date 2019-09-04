@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/newdetail/newdetail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFB6C1",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "时刻关注",
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "今日天气",
+        "iconPath": "icons/weather.png",
+        "selectedIconPath": "icons/weatherActive.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "今日新闻",
+        "iconPath": "icons/new.png",
+        "selectedIconPath": "icons/newactive.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

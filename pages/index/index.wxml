@@ -1,0 +1,53 @@
+<view class="container">
+    <!-- 视图1：地区选择器 -->
+    <veiw class="area" style="text-align: center;height: 40rpx">
+        <picker mode="region" bindchange="changeRegion">{{region}}</picker>
+    </veiw>
+    <!-- 视图2：日期 -->
+    <view class="date" style="text-align: center;height: 30rpx">
+        <text>{{date}}</text>
+    </view>
+    <!-- 视图3：天气图标（image） -->
+    <view class="weather" wx:if="{{condition}}">
+        <view>
+            <image class="icon" src="../../icons/{{now.cond_code}}.png"></image>
+        </view>
+        <view class="tmp">
+            <view>
+                <text>天气:{{now.cond_txt}}</text>
+            </view>
+            <view>
+                <text>环境温度:{{now.tmp}}℃</text>
+            </view>
+            <view>
+                <text>体感温度:{{now.fl}}℃</text>
+            </view>
+        </view>
+    </view>
+    <view class="Icon" wx:else>
+        <image src="../../icons/999.png"></image>
+    </view>
+    <!-- 试图4：其他信息（flex容器展示） -->
+    <veiw class="detail">
+        <veiw class="bar">
+            <veiw class="box">湿度</veiw>
+            <veiw class="box">气压</veiw>
+            <veiw class="box">能见度</veiw>
+        </veiw>
+        <veiw class="bar">
+            <veiw class="box">{{now.hum}}%</veiw>
+            <veiw class="box">{{now.pres}}hpa</veiw>
+            <veiw class="box">{{now.vis}}km</veiw>
+        </veiw>
+        <veiw class="bar">
+            <veiw class="box">风向</veiw>
+            <veiw class="box">风速</veiw>
+            <veiw class="box">风力</veiw>
+        </veiw>
+        <veiw class="bar">
+            <veiw class="box">{{now.wind_dir}}</veiw>
+            <veiw class="box">{{now.wind_spd}}km/h</veiw>
+            <veiw class="box">{{now.wind_sc}}级</veiw>
+        </veiw>
+    </veiw>
+</view>

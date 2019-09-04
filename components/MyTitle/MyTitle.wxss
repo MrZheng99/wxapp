@@ -1,0 +1,40 @@
+.MyTitle{
+    display: flex;
+    align-items: center;
+    padding: 5rpx;
+    background-color: white;
+}
+.logo{
+    display: flex;
+    flex: 10rpx;
+    justify-content: center;
+    align-items: center;
+    padding: 10rpx;
+    width: 160rpx;
+    height: 60rpx;
+}
+.search_icon{
+    display: flex;
+    flex: 1rpx;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10rpx;
+    
+}
+.user_icon{
+    display: flex;
+    flex: 3rpx;
+    justify-content: center;
+    align-items: center;
+    padding: 10rpx;
+}
+.download_icon{
+    flex: 3rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    color: white;
+    padding: 10rpx;
+    border-radius: 5rpx;
+}
